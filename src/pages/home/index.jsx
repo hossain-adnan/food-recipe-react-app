@@ -6,8 +6,6 @@ export default function Home() {
 
     const {loading, recipeList} = useContext(GlobalContext);
 
-    // console.log(recipeList, 'recipeList');
-    //py-8 container mx-auto flex flex-wrap justify-center gap-10
     return (
         <div className="container flex gap-8 flex-wrap py-8 justify-center">
             {
